@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main  # اجرای Workflow هنگام Push به شاخه "main"
-
+  workflow_dispatch:
+  
 jobs:
   obfuscate:
     runs-on: ubuntu-latest
